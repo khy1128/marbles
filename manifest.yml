@@ -1,10 +1,10 @@
 ---
 applications:
 - disk_quota: 1024M
-  name: marbles-blockchain-hykim-1486108241122
+  name: marbles-blockchain-hykim
   command: "node app.js"
   path: "."
   instances: 1
   memory: 512M
   services:
-   - marbles-blockchain-hykim
+   - marbles-blockchain
